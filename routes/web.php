@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+
+    $db = config('db');
+
+    return view('layouts.app', compact('db'));
+})->name('homepage');
