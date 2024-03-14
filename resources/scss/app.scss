@@ -1,0 +1,138 @@
+@import "bootstrap/scss/bootstrap";
+
+.div-header{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: baseline;
+    align-items: center;
+    padding-block: 10px;
+    background-color: white;
+    figure img{
+        height: 80px;
+    }
+     div ul{
+         display: flex;
+         gap: 20px;
+         align-items: center;
+         margin-top: 10px;
+         color:#573F51;
+        li{
+            list-style: none;
+        }
+     }
+ }
+
+
+.cont{
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    position: relative;
+}
+.currentBtn{
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(50%);
+    left: 200px;
+}
+.content{
+    background-color: #1C1C1C;
+    color: white;
+    padding: 25px;
+    div{
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+.buyComics{
+background-color:#0082F9 ;
+padding: 20px;
+color: white;
+display: flex;
+justify-content: center;
+ul{
+    display: flex;
+    gap: 15px;
+        li{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+            img{
+            height: 45px;
+            }
+        }
+}
+}
+
+.bgContainer{
+    background-image: url(../img/footer-bg.jpg);
+    background-size:cover ;
+   background-repeat: no-repeat;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+   width: 100%;
+ }
+.ulContainer{
+    display: flex;
+    font-size: 15px;
+    // color: white;
+    background-image: url(../img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 20px;
+        ul li{
+            list-style: none;
+        opacity: 55%;
+        }
+ }
+.signUp{
+    background-color: #303030;
+    // color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+        div{
+        display: flex;
+        align-items: center;
+          ul{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            li {
+                list-style: none;
+                img{
+                    height: 30px;
+                }
+            }
+            }
+        }
+    }
+
+.poster{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white ;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    .posterCol{
+        flex-basis: calc(100% / 6);
+        img{
+            width: 100px;
+        }
+    }
+}
+
+main{
+    background-color:#1C1C1C;
+}
