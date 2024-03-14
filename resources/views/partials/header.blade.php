@@ -1,6 +1,5 @@
   <div class="div-header">
       <figure>
-         {{-- <img src="../assets/img/dc-logo.png" alt=""> --}}
          <img src="{{ Vite:: asset('resources/img/dc-logo.png') }}" alt="">
       </figure>
       <div>
